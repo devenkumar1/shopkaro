@@ -1,0 +1,226 @@
+.empty-cart {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Maison Neue';
+    font-weight: 300;
+}
+
+.svgg {
+    max-width: 60%;
+    padding: 5rem 3rem;
+    display: inline-block !important;
+}
+
+.svgg #oval,
+.svgg #plus,
+.svgg #diamond,
+.svgg #bubble-rounded {
+    animation: plopp 4s ease-out infinite;
+}
+
+.svgg #oval:nth-child(1),
+.svgg #plus:nth-child(1),
+.svgg #diamond:nth-child(1),
+.svgg #bubble-rounded:nth-child(1) {
+    animation-delay: -240ms;
+}
+
+.svgg #oval:nth-child(2),
+.svgg #plus:nth-child(2),
+.svgg #diamond:nth-child(2),
+.svgg #bubble-rounded:nth-child(2) {
+    animation-delay: -480ms;
+}
+
+.svgg #oval:nth-child(3),
+.svgg #plus:nth-child(3),
+.svgg #diamond:nth-child(3),
+.svgg #bubble-rounded:nth-child(3) {
+    animation-delay: -720ms;
+}
+
+.svgg #oval:nth-child(4),
+.svgg #plus:nth-child(4),
+.svgg #diamond:nth-child(4),
+.svgg #bubble-rounded:nth-child(4) {
+    animation-delay: -960ms;
+}
+
+.svgg #oval:nth-child(5),
+.svgg #plus:nth-child(5),
+.svgg #diamond:nth-child(5),
+.svgg #bubble-rounded:nth-child(5) {
+    animation-delay: -1200ms;
+}
+
+.svgg #oval:nth-child(6),
+.svgg #plus:nth-child(6),
+.svgg #diamond:nth-child(6),
+.svgg #bubble-rounded:nth-child(6) {
+    animation-delay: -1440ms;
+}
+
+.svgg #oval:nth-child(7),
+.svgg #plus:nth-child(7),
+.svgg #diamond:nth-child(7),
+.svgg #bubble-rounded:nth-child(7) {
+    animation-delay: -1680ms;
+}
+
+.svgg #oval:nth-child(8),
+.svgg #plus:nth-child(8),
+.svgg #diamond:nth-child(8),
+.svgg #bubble-rounded:nth-child(8) {
+    animation-delay: -1920ms;
+}
+
+.svgg #oval:nth-child(9),
+.svgg #plus:nth-child(9),
+.svgg #diamond:nth-child(9),
+.svgg #bubble-rounded:nth-child(9) {
+    animation-delay: -2160ms;
+}
+
+.svgg #oval:nth-child(10),
+.svgg #plus:nth-child(10),
+.svgg #diamond:nth-child(10),
+.svgg #bubble-rounded:nth-child(10) {
+    animation-delay: -2400ms;
+}
+
+.svgg #oval:nth-child(11),
+.svgg #plus:nth-child(11),
+.svgg #diamond:nth-child(11),
+.svgg #bubble-rounded:nth-child(11) {
+    animation-delay: -2640ms;
+}
+
+.svgg #oval:nth-child(12),
+.svgg #plus:nth-child(12),
+.svgg #diamond:nth-child(12),
+.svgg #bubble-rounded:nth-child(12) {
+    animation-delay: -2880ms;
+}
+
+.svgg #oval:nth-child(13),
+.svgg #plus:nth-child(13),
+.svgg #diamond:nth-child(13),
+.svgg #bubble-rounded:nth-child(13) {
+    animation-delay: -3120ms;
+}
+
+.svgg #oval:nth-child(14),
+.svgg #plus:nth-child(14),
+.svgg #diamond:nth-child(14),
+.svgg #bubble-rounded:nth-child(14) {
+    animation-delay: -3360ms;
+}
+
+.svgg #oval:nth-child(15),
+.svgg #plus:nth-child(15),
+.svgg #diamond:nth-child(15),
+.svgg #bubble-rounded:nth-child(15) {
+    animation-delay: -3600ms;
+}
+
+.svgg #oval:nth-child(16),
+.svgg #plus:nth-child(16),
+.svgg #diamond:nth-child(16),
+.svgg #bubble-rounded:nth-child(16) {
+    animation-delay: -3840ms;
+}
+
+.svgg #bg-line:nth-child(2) {
+    fill-opacity: 0.3;
+}
+
+.svgg #bg-line:nth-child(3) {
+    fill-opacity: 0.4;
+}
+
+.empty-cart-h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.empty-cart-p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 80%;
+    margin: 1.25rem auto 0 auto;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+@-moz-keyframes plopp {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes plopp {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+}
+
+@-o-keyframes plopp {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+}
+
+@keyframes plopp {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+}
+
+@media (max-width:580px) {
+    .svgg {
+        max-width: 100%;
+        padding: 5rem 1rem;
+    }
+
+    .empty-cart-h3 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .empty-cart-p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}

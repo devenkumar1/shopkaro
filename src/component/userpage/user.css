@@ -1,0 +1,65 @@
+.outerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.box {
+    display: flex;
+    height: 60vh;
+    width: 60vw;
+    /* border: 2px solid rgb(150, 68, 68); */
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile {
+    /* border: 2px solid plum; */
+}
+
+.profile-box {
+    /* border: 1px solid black; */
+}
+
+.labelpro {
+    /* border: 2px solid black; */
+}
+
+.profile-text {
+    margin-top: 20px;
+}
+
+.profile-text>h2 {
+    font-weight: 450;
+}
+
+.address>h2 {
+    font-weight: 450;
+
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.addre {
+    width: 250px;
+    /* border: 2px solid black; */
+}
